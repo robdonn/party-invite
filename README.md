@@ -1,8 +1,17 @@
-[![codecov](https://codecov.io/gh/robdonn/party-invite/branch/master/graph/badge.svg)](https://codecov.io/gh/robdonn/party-invite)
-
 # Party Invite
 
 > Write a program that will read the full list of customers and output the names and user ids of matching customers (within 100km), sorted by User ID (ascending).
+
+## Method
+
+```math
+a = sin²(Δφ/2) + cos φ1 * cos φ2 * sin²(Δλ/2)
+c = 2 * atan2( √a, √(1−a) )
+d = R * c
+```
+
+- [Great-circle distance](https://en.wikipedia.org/wiki/Great-circle_distance)
+- [Haversine formula](https://en.wikipedia.org/wiki/Great-circle_distance)
 
 ## Coverage
 
