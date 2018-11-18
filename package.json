@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js --source=customers.txt",
-    "test": "jest src --watch"
+    "test": "jest src --coverage"
   },
   "devDependencies": {
     "jest": "23.6.0",
