@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/robdonn/party-invite/branch/master/graph/badge.svg)](https://codecov.io/gh/robdonn/party-invite)
+
 # Party Invite
 
 > Write a program that will read the full list of customers and output the names and user ids of matching customers (within 100km), sorted by User ID (ascending).
