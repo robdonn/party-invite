@@ -58,7 +58,7 @@ d = R * c
 ```
 
 - [Great-circle distance](https://en.wikipedia.org/wiki/Great-circle_distance)
-- [Haversine formula](https://en.wikipedia.org/wiki/Great-circle_distance)
+- [Haversine formula](https://www.movable-type.co.uk/scripts/latlong.html)
 
 ## Coverage
 
