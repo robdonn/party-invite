@@ -5,10 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js --source=customers.txt",
-    "test": "jest src --coverage"
+    "test": "jest src --coverage",
+    "test:upload": "codecov"
   },
   "devDependencies": {
-    "jest": "23.6.0",
-    "@types/jest": "23.3.9"
+    "@types/jest": "23.3.9",
+    "codecov": "^3.1.0",
+    "jest": "23.6.0"
   }
 }
