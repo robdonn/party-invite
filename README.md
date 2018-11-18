@@ -1,5 +1,7 @@
 # Party Invite
 
+A Node base CLI
+
 > Write a program that will read the full list of customers and output the names and user ids of matching customers (within 100km), sorted by User ID (ascending).
 
 ## Requirements
@@ -9,7 +11,43 @@
 ## Instructions
 
 - `(yarn | npm) install`
+
+## Try it out
+
+### Local
+
 - `(yarn | npm) start`
+
+## Global
+
+- `(yarn | npm) link`
+
+This will make the `party-invite` script globally available on your machine via symlink. Now from anywhere on your machine you can run command. e.g.
+
+- `party-invite`
+- `party-invite --source=./customers.txt`
+
+## Options
+
+### `--source`
+
+Select a source file for the customer data.
+**Default:** `./customers.txt`
+
+### `--lat`
+
+Define central latitude for comparing distances
+**Default:** `53.339428`
+
+### `--lon`
+
+Define central longitude for comparing distances
+**Default:** `-6.257664`
+
+### `--distance`
+
+Distance in km to allow invites
+**Default:** `100`
 
 ## Method
 

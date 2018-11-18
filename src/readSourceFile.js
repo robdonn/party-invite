@@ -7,8 +7,8 @@ class ReadSourceFileError extends Error {}
  * Reads source file and parses for user data
  * @returns {[object]} Array of user objects
  */
-const readSourceFile = () => {
-  const filePath = path.join(process.cwd(), "customers.txt");
+const readSourceFile = source => {
+  const filePath = path.join(process.cwd(), source);
   try {
     const file = fs.readFileSync(filePath, {
       encoding: "utf8"

@@ -8,13 +8,13 @@ const { handleError } = require("./handleError");
  * @param {object} params.officeLocation Object containing latitude and longitude of office location
  * @param {number} params.maxOfficeDistanceKm Distance in km to allow invitations
  */
-const run = ({ officeLocation, maxOfficeDistanceKm } = {}) => {
+const run = ({ officeLocation, maxOfficeDistanceKm, source } = {}) => {
   try {
     if (!officeLocation || !maxOfficeDistanceKm) {
       throw new Error("Missing required defaults");
     }
 
-    const customers = readSourceFile();
+    const customers = readSourceFile(source);
 
     customers
       .filter(

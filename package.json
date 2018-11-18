@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Invite people who are within 100km away",
   "main": "src/index.js",
+  "bin": {
+    "party-invite": "src/index.js"
+  },
   "scripts": {
-    "start": "node src/index.js --source=customers.txt",
+    "start": "src/index.js",
     "test": "jest src --coverage",
     "test:upload": "codecov"
   },
@@ -15,5 +18,8 @@
   },
   "engines": {
     "node": ">=9.6"
+  },
+  "dependencies": {
+    "yargs": "^12.0.4"
   }
 }
