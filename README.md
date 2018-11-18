@@ -18,7 +18,7 @@ A Node base CLI
 
 - `(yarn | npm) start`
 
-## Global
+### Global
 
 - `(yarn | npm) link`
 
