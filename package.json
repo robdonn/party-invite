@@ -1,0 +1,14 @@
+{
+  "name": "party-invite",
+  "version": "1.0.0",
+  "description": "Invite people who are within 100km away",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js --source=customers.txt",
+    "test": "jest src --watch"
+  },
+  "devDependencies": {
+    "jest": "23.6.0",
+    "@types/jest": "23.3.9"
+  }
+}
