@@ -2,6 +2,15 @@
 
 > Write a program that will read the full list of customers and output the names and user ids of matching customers (within 100km), sorted by User ID (ascending).
 
+## Requirements
+
+- Node >= 9.6 (You can use `nvm use` to automatically install)
+
+## Instructions
+
+- `(yarn | npm) install`
+- `(yarn | npm) start`
+
 ## Method
 
 ```math
