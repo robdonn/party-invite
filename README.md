@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/robdonn/party-invite.svg?style=svg)](https://circleci.com/gh/robdonn/party-invite)
+[![codecov](https://codecov.io/gh/robdonn/party-invite/branch/master/graph/badge.svg)](https://codecov.io/gh/robdonn/party-invite)
+
 # Party Invite
 
 A Node base CLI
